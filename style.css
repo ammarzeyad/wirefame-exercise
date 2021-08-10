@@ -7,22 +7,26 @@ body {
 header {
     background: rgb(35, 170, 194);
     height: 100px;
-    margin-bottom: 50px;
-    margin: 40px;
+    margin-bottom: 50px; 
+    padding-left: 20;
 }
-
   nav {
- 
     width: 960px;
     margin: 0px auto;
+  } 
+
+  nav ul  {
+    padding: 1px;
+    padding-left: 100px;
     
   }
-  nav ul  {
-    padding-left: 100px;
+  #lift{
+      padding-top: 20px;
   }
  
-  nav ul li a {
+   nav ul li a {
     text-decoration: none;
+    
     
   }
   nav img {
@@ -67,26 +71,28 @@ section p {
     overflow: scroll;
     font-style: italic;
     line-height: 22px;
-    margin: 10px;
+    margin: 30px;
 }
 section button {
     border: none;
     font-size: 20px;
     color: rgb(44, 19, 187);
     padding: 20px 10px;
-    border-radius: 3px;
+    border-radius: 15px;
     cursor: pointer;
 }
 section button:hover {
     background: snow;
 }
-footer{
-    clear : both;
-    height: 150px;
-    background: rgb(35, 170, 194);
-}
 nav li {
     display: inline-block;
     margin-top: 45px;
     margin-right: 70px;
+}
+
+footer{
+    padding-left: 10px;
+    clear : both;
+    height: 150px;
+    background: rgb(35, 170, 194);
 }
